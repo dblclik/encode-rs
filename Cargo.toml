@@ -1,0 +1,18 @@
+[package]
+name = "encode_rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "encode_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "encode"
+path = "src/bin.rs"
+
+[dependencies]
+bitvec = "1"
+byteorder = "1.4.3"
