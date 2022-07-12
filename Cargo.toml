@@ -13,6 +13,13 @@ path = "src/lib.rs"
 name = "encode"
 path = "src/bin.rs"
 
+[[bench]]
+name = "my_benchmark"
+harness = false
+
 [dependencies]
 bitvec = "1"
 byteorder = "1.4.3"
+
+[dev-dependencies]
+criterion = "0.3"
